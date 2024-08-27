@@ -189,7 +189,7 @@ class Estimator:
 directory = 'PATH' #'PATH' must be changed with the directory where the project is loaded.
 time_intervals= [16]
 for time_interval in time_intervals:
-    est = Estimator(time_interval=time_interval,directory)
+    est = Estimator(time_interval=time_interval,directory=directory)
     est.setDirectories()
     est.fit()
     
@@ -203,7 +203,7 @@ directory = 'PATH' #'PATH' must be changed with the directory where the project 
 time_intervals = [4,8,12,16]
 
 for time_interval in time_intervals:
-    est = Estimator(time_interval=time_interval,directory)
+    est = Estimator(time_interval=time_interval,directory=directory)
     est.setDirectories()
     
     est.openFiles()
@@ -214,7 +214,7 @@ for time_interval in time_intervals:
 directory = 'PATH' #'PATH' must be changed with the directory where the project is loaded.
 time_intervals = [4,8,12,16]  
 for time_interval in time_intervals:
-    est = Estimator(time_interval=time_interval,directory)
+    est = Estimator(time_interval=time_interval,directory=directory)
     est.setDirectories()
     
     est.openFiles()
@@ -226,7 +226,7 @@ for time_interval in time_intervals:
 directory = 'PATH' #'PATH' must be changed with the directory where the project is loaded.
 time_intervals = [16]
 for time_interval in time_intervals:
-    est = Estimator(time_interval=time_interval,directory)
+    est = Estimator(time_interval=time_interval,directory=directory)
     est.setDirectories()
     
     est.openFiles()
@@ -238,7 +238,7 @@ for time_interval in time_intervals:
 directory = 'PATH' #'PATH' must be changed with the directory where the project is loaded.
 time_intervals = [4,8,12,16]
 for time_interval in time_intervals:
-    est = Estimator(time_interval=time_interval,directory)
+    est = Estimator(time_interval=time_interval,directory=directory)
     est.setDirectories()
     
     est.openFiles()
@@ -253,7 +253,7 @@ for time_interval in time_intervals:
 directory = 'PATH' #'PATH' must be changed with the directory where the project is loaded.
 time_intervals = [4,8,12,16]
 for time_interval in time_intervals:
-    est = Estimator(time_interval=time_interval,directory)
+    est = Estimator(time_interval=time_interval,directory=directory)
     est.setDirectories()
     
     est.openFiles()
